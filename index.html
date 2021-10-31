@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">This is a demo store.Any orders placed through this store will not be honored of
+            fulfilled.</h1>
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="#" class="header__logo-link">
+                        <img src="img/logo.png" alt="" class="logo-image">
+                        <h2 class="header__title">Magento &reg;
+                        </h2>
+                    </a>
+                </div>
+
+
+                <div class="header__tools">
+                    <div class="search__tools">
+                        <img src="img/search.png" alt="" class="search__img">
+                        <input type="text" placeholder="Search entire store here..." class="search_input">
+                        <button class="search__button">Search</button>
+                    </div>
+                    <h2 class="hi__message">Default welcome message</h2>
+
+                    <div class="header__links">
+                        <a href="#" class="header__link-item">My account </a>
+                        <a href="#" class="header__link-item">My wishlist</a>
+                        <a href="#" class="header__link-item">My cart</a>
+                        <a href="#" class="header__link-item">Checkout</a>
+                        <a href="#" class="header__link-item">Log in</a>
+                    </div>
+
+                    <div class="header__tools-select">
+                        <p class="select__title">Your language:</p>
+                        <form action="select1">
+                            <p><select size="1">
+                                    <option disabled>Select language</option>
+                                    <option value="Ru">Russian</option>
+                                    <option selected value="Eng">English</option>
+                                </select></p>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header__bottom">
+                <nav class="nav">
+                    <div class="header__bottom-links">
+                        <a href="#" class="header__bottom-link">Furniture</a>
+                        <a href="#" class="header__bottom-link">Electronics</a>
+                        <a href="#" class="header__bottom-link">Apparel</a>
+                        <a href="#" class="header__bottom-link">Music</a>
+                        <a href="#" class="header__bottom-link">Ebooks</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="heading">
+        <div class="heading__inner">
+            <div class="heading__links-items">
+                <div class="heading__title">
+                    <a href="#" class="title__link title__link--active">Home</a>
+                    <i class="slash">/</i>
+                    <a href="#" class="title__link">Apparel</a>
+                </div>
+                <div class="menu">
+                    <div class="heading__select">
+                        <form action="select__currency">
+                            <p class="select__currency">
+                                <img src="img/earth.png" alt="image" class="heading__select-img">
+                                Select your currency
+                            </p>
+                            <p><select size="1">
+                                    <option disabled>Select your currency</option>
+                                    <option value="RUB">RUB</option>
+                                    <option selected value="USD">US Dollar - USD</option>
+                                    <option value="EUR">EUR</option>
+                                </select></p>
+                        </form>
+                    </div>
+                    <div class="heading__menu">
+                        <div class="menu__items">
+                            <div class="menu__burger">
+                                <span></span>
+                            </div>
+                            <ul class="menu__list-items">
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        What's Hot
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        Top Selling
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        Clothes
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        Beauty
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        Gift Center
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        Electronics
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                                <div class="lists__block">
+                                    <span class="menu__title">
+                                        Health & Nutrition
+                                    </span>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link">Hot Deals</a>
+                                        <a href="#" class="menu__link">Dads & Grads Extra Cashback </a>
+                                        <a href="#" class="menu__link">Event </a>
+                                        <a href="#" class="menu__link">Father's Day eGifts </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="heading__helping">
+                        <a href="#" class="helping__dog">
+                            <img src="img/dog-help.png" alt="dog" class="dog-img">
+                        </a>
+                    </div>
+                    <div class="popular__tags">
+                        <div class="popular__head">
+                            <img src="img/sticker.png" alt="img" class="head__sticker">
+                            <h3 class="tags_title">POPULAR TAGS</h3>
+                        </div>
+                        <div class="tags__content">
+                            <a href="#" class="tag__link">
+                                <ul class="tag__links-items">
+                                    <li class="tag__links-item">awesome</li>
+                                    <li class="tag__links-item">bones</li>
+                                    <li class="tag__links-item">camera</li>
+                                    <li class="tag__links-item">cool</li>
+                                    <li class="tag__links-item">furniture</li>
+                                    <li class="tag__links-item">good</li>
+                                    <li class="tag__links-item">great</li>
+                                    <li class="tag__links-item">green</li>
+                                    <li class="tag__links-item">laptop</li>
+                                    <li class="tag__links-item">music</li>
+                                    <li class="tag__links-item">new</li>
+                                    <li class="tag__links-item">phone</li>
+                                    <li class="tag__links-item">red</li>
+                                    <li class="tag__links-item">sexy</li>
+                                    <li class="tag__links-item">shoes</li>
+                                    <li class="tag__links-item">t-shirt</li>
+                                    <li class="tag__links-item">tag</li>
+                                    <li class="tag__links-item">wow</li>
+                                    <li class="tag__links-item">young</li>
+                                </ul>
+                            </a>
+                            <a href="#" class="full__tags">View all tags</a>
+                        </div>
+
+                    </div>
+                    <div class="newsletter">
+                        <div class="top__letter">
+                            <img src="img/letter.png" alt="letter" class="letter-img">
+                            <h3 class="subscribe__title">NEWSLETTER</h3>
+                        </div>
+                        <p class="subscribe__content">Sign up for our Newsletter:</p>
+
+                        <input type="text" class="input__newsletter">
+                        <button class="subscribe__button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="heading__content">
+                <div class="heading__top">
+                    <h3 class="content__title">Apparel</h3>
+                    <a href="#" class="heading__link">
+                        <img src="img/wifi-slider.png" alt="" class="heading__wifi-img">
+                        Subscribe to RSS Feed
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <div class="slider__container">
+                        <div class="slider__track">
+                            <div class="slider__item">
+                                <img src="img/slider-item.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item-1.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item-1.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item-1.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item-1.png" alt="slider" class="slider__item-img">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-item.png" alt="slider" class="slider__item-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__buttons">
+                        <button class="btn__prev">
+                            <p class="arrow__slider">
+                                <img src="img/arrow-left.png" alt="" class="arrow-img">
+                            </p>
+                        </button>
+                        <button class="btn__next">
+                            <p class="arrow__slider">
+                                <img src="img/arrow-right.png" alt="" class="arrow-img">
+                            </p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="content__box">
+                    <div class="tabs__wrapper">
+                        <div class="tabs-triggers">
+                            <a href="#tab-1" class="tabs-triggers__item">Tab 1</a>
+                            <a href="#tab-2" class="tabs-triggers__item">Tab 2</a>
+                        </div>
+                        <div class="tabs-content">
+                            <div class="tabs-content__item" id='tab-1'>
+                                <div class="container__item">
+                                    <img src="img/greenT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Coalesce: Functioning
+                                        On Impatience T-Shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 15.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='3'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/whiteT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Ink Eater: Krylon Bombear Destroyed Tee
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 22.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/mixT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        The Only Children: Paisley T-Shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 55.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='5'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/greenT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Coalesce: Functioning
+                                        On Impatience T-Shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 15.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='1'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/redT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Zolof The Rock And
+                                        Roll Destroyer: LOL
+                                        Cat T-shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 13.<small>50</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/tealT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        The Get Up Kids:
+                                        Band Camp Pullover
+                                        Hoodie
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 12.<small>30</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/blackShoes.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Kenneth Cole New
+                                        York Men's Con-verge
+                                        Slip-on
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 169.<small>99</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/snicker.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        ASICS® Men's GEL-
+                                        Kayano® XII
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 134.<small>99</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/clog.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        CN Clogs Beach/
+                                        Garden Clog
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 15.<small>99</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='0'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-content__item" id='tab-2'>
+
+
+                                <div class="container__item">
+                                    <img src="img/mixT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        The Only Children: Paisley T-Shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 55.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='5'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/greenT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Coalesce: Functioning
+                                        On Impatience T-Shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 15.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='1'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/redT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Zolof The Rock And
+                                        Roll Destroyer: LOL
+                                        Cat T-shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 13.<small>50</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/tealT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        The Get Up Kids:
+                                        Band Camp Pullover
+                                        Hoodie
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 12.<small>30</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/whiteT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Ink Eater: Krylon Bombear Destroyed Tee
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 22.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/blackShoes.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Kenneth Cole New
+                                        York Men's Con-verge
+                                        Slip-on
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 169.<small>99</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/greenT.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        Coalesce: Functioning
+                                        On Impatience T-Shirt
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 15.<small>00</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='3'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/snicker.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        ASICS® Men's GEL-
+                                        Kayano® XII
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 134.<small>99</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='2'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                                <div class="container__item">
+                                    <img src="img/clog.png" alt="" class="item__img">
+                                    <div class="item__text">
+                                        CN Clogs Beach/
+                                        Garden Clog
+                                    </div>
+                                    <div class="buy__box">
+                                        <span class="price"><b><small>$</small> 15.<small>99</small></b></span>
+                                        <button class="buy__btn">Add to Cart</button>
+                                    </div>
+                                    <div class="rating" data-total-value='0'>
+                                        <div class="rating__item" data-item-value='5'>★</div>
+                                        <div class="rating__item" data-item-value='4'>★</div>
+                                        <div class="rating__item" data-item-value='3'>★</div>
+                                        <div class="rating__item" data-item-value='2'>★</div>
+                                        <div class="rating__item" data-item-value='1'>★</div>
+                                    </div>
+                                    <div class="content__text">
+                                        When you're dress-hunting, you want to find something that's fun, comfortable,
+                                        flattering, and uniquely you! So, why not start with a sundress? They always
+                                        brighten up the environment around you and inspire positivity wherever you go!
+                                        Looking for some color to brighten up your day? Check out the cotton sundresses.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading__info">
+                <div class="info__compare">
+                    <div class="info__head">
+                        <img src="img/compare-img.png" alt="" class="compare__img">
+                        <h3 class="head__title">COMPARE PRODUCTS</h3>
+                    </div>
+                    <div class="compare__content">You have no items to compare.</div>
+                </div>
+                <div class="info__cart">
+                    <div class="info__head">
+                        <img src="img/cart-png.png" alt="" class="cart__img">
+                        <h3 class="head__title">MY CART</h3>
+                    </div>
+                    <div class="compare__content">You have no items in your shopping cart.</div>
+                </div>
+                <div class="info__image">
+                    <img src="img/backToSchool.png" alt="" class="info__img">
+                </div>
+                <div class="info__community">
+                    <div class="info__head">
+                        <img src="img/community.png" alt="" class="community__img">
+                        <h3 class="head__title">COMMUNITY POLL</h3>
+                    </div>
+                    <div class="community__content">
+                        <form action="select.html">
+                            <p><b>What is your favorite Magento feature?</b></p>
+                            <p><input type="radio" value="nav"> Layered Navigation</p>
+                            <p><input type="radio" value="rules"> Price Rules</p>
+                            <p><input type="radio" value="managment"> Category Management</p>
+                            <p><input type="radio" value="products"> Compare Products</p>
+                            <a class="bottom__form">
+                                <button class="bottom__btn">Vote</button>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="info__pay">
+                    <a href="#" class="pay__link">
+                        <img src="img/paypal-img.png" alt="" class="pay-img">
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
